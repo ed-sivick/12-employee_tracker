@@ -15,7 +15,7 @@
   "bugs": {
     "url": "https://github.com/ed-sivick/12-employee_tracker/blob/main/README.md"
   },
-  "homepage": "https://github.com/ed-sivick/12-employee_tracker/blob/main/README.md",
+  "homepage": "https://github.com/ed-sivick/12-employee_tracker",
   "dependencies": {
     "inquirer": "^7.3.3",
     "mysql": "^2.18.1"
