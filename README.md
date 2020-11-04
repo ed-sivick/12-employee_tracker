@@ -16,6 +16,8 @@ ___
  This is a command-line app that generates a CMS, Content Management System, allowing users to track company employees by adding or viewing departments, roles, and employees.  The user can also update employee roles.
 _____
 ## Layout:
+A **employee_db** database and associated tables were created per instructions as shown in the **schema.sql** file.  The information was copied/pasted to a New Query Tab inside MySql Workbench.
+Data as shown in the **seeds.sql** file was inserted into the tables.
 Once the app is installed and invoked, the use will be prompted to select a function from the following selection:
 - **Add a department**, and the user is prompted to add the name of the new department
 - **Add a role**, and the user is directed to another series of prompts related to adding a new employee role/position
