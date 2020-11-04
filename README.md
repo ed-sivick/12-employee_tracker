@@ -30,9 +30,10 @@ Once the app is installed and invoked (per installation), the user is prompted t
 ___
 ## Installation
 (1) Type **npm i** (install) to install all required dependencies for the app   
-(2) Invoke the app by going to the employeeTrack.js file, open in integrated terminal, and type:    
+(2) Add user password between quotes (" ") in employeeTrack.js file.   
+(3) Invoke the app by going to the employeeTrack.js file, open in integrated terminal, and type:    
  **node employeeTrack .js**   
-(3) Answer the prompts related to the user selected layout functions described above   
+(4) Answer the prompts related to the user selected layout functions described above   
 _____
 ## Usage
 This App allows the user to manage and update their company's departments, employees, and roles for each employee. 
