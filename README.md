@@ -16,9 +16,9 @@ ___
  This is a command-line app that generates a CMS, Content Management System, allowing users to track company employees by adding or viewing departments, roles, and employees.  The user can also update employee roles.
 _____
 ## Layout:
-A **employee_db** database and associated tables were created per instructions as shown in the **schema.sql** file.  The information was copied/pasted to a New Query Tab inside MySql Workbench.   
+An **employee_db** database and associated tables were created per instructions as shown in the **schema.sql** file.  The information was copied/pasted to a New Query Tab inside MySql Workbench.   
 Data as shown in the **seeds.sql** file was inserted into the tables, and the tables were created in Workbench.
-Once the app is installed and invoked (per installation), the user is prompted to select a function from the following selection:
+Once the app is installed and invoked (per installation), the user is prompted to select a function from the following:
 - **Add a department**, and the user is prompted to add the name of the new department
 - **Add a role**, and the user is directed to another series of prompts related to adding a new employee role/position
 - **Add an employee**, and the user is directed to another series of prompts related to adding a new employee
@@ -26,14 +26,14 @@ Once the app is installed and invoked (per installation), the user is prompted t
 - **View roles**, and the table data for the company roles is displayed on the console    
 - **View employees**, and the table data for the company employees is displayed on the console
 - **View employee roles**, and the user is directed to another series of prompts related to updating an employee's role/position
-- **Exit**, to exit the app and return to the terminal prompt $
+- **Exit**, to exit the app and return to the integrated terminal prompt $
 ___
 ## Installation
 (1) Type **npm i** (install) to install all required dependencies for the app   
-(2) Add user password between quotes (" ") in employeeTrack.js file.   
-(3) Invoke the app by going to the employeeTrack.js file, open in integrated terminal, and type:    
+(2) Add your user password between the quotes (" ") in the employeeTrack.js file.   
+(3) Invoke the app by going to the employeeTrack.js file, open in the Integrated Terminal, and type:    
  **node employeeTrack .js**   
-(4) Answer the prompts related to the user selected layout functions described above   
+(4) Answer the prompts related to the user selected layout functions described above.   
 _____
 ## Usage
 This App allows the user to manage and update their company's departments, employees, and roles for each employee. 

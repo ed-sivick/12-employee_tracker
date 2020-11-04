@@ -40,7 +40,7 @@ function start() {
                 "Exit"
             ]
         })
-        // User's answer invokes related functions
+        // User's answer invokes the related functions
         .then(function (answer) {
             if (answer.action === 'Add a department') {
                 addDepartment();
