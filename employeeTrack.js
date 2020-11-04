@@ -69,6 +69,7 @@ function addDepartment() {
             type: "input",
             message: "What is the name for this new department?",
         })
+        // Add department to table row
         .then(function (answer) {
             var query = "INSERT INTO department (name) VALUES ( ? )";
             connection.query(query, answer.department, function (err, res) {
@@ -117,6 +118,7 @@ function addRole() {
                         return res.name == department;
                     }
                     )
+                    // Add role to table row
                     let id = filteredDept[0].id;
                     let query = "INSERT INTO role (title, hourly salary, department_id) VALUES (?, ?, ?)";
                     let values = [answer.title, parseInt(answer.salary_hour), id]
@@ -196,6 +198,7 @@ async function addEmployee() {
                                     })
                                     let managerId = filteredManager[0].id;
                                     console.log(managerAnswer);
+                                    // Add employee to table row
                                     let query = "INSERT INTO employee (first_name, last_name, role_id, manager_id) VALUES (?, ?, ?, ?)";
                                     let values = [answer.firstName, answer.lastName, roleId, managerId]
                                     console.log(values);
