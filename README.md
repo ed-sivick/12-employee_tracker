@@ -17,7 +17,7 @@ ___
 _____
 ## Layout:
 Once the app is installed and invoked, the use will be prompted to select a function from the following selection:
-- **Add a department**, and the user is directed to another series of prompts related to adding a new department
+- **Add a department**, and the user is prompted to add the name of the new department
 - **Add a role**, and the user is directed to another series of prompts related to adding a new employee role/position
 - **Add an employee**, and the user is directed to another series of prompts related to adding a new employee
 - **View departments**, and the table data for the company departments is displayed on the console  
@@ -28,7 +28,8 @@ Once the app is installed and invoked, the use will be prompted to select a func
 ___
 ## Installation
 (1) Type **npm i** (install) to install all required dependencies for the app   
-(2) Invoke the app by going to the employeeTrack.js file, open in integrated terminal, and type: **node employeeTrack .js** 
+(2) Invoke the app by going to the employeeTrack.js file, open in integrated terminal, and type:    
+ **node employeeTrack .js**   
 (3) Answer the prompts related to the user selected layout functions described above   
 _____
 ## Usage
