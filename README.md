@@ -32,7 +32,7 @@ ___
 (3) Answer the prompts related to the user selected layout functions described above   
 _____
 ## Usage
-This App allows the user to write, save, and delete notes on a webpage. 
+This App allows the user to manage and update their company's departments, employees, and role for each employee. 
 _____
 ## Contributing
 ed-sivick, Stack Overflow, Grepper, BCS support for functionality and code syntax
@@ -54,7 +54,7 @@ _____
 ___
 ## Application_Links_and_Images  
 **Links:**  
-App video functionality link: (https://drive.google.com/drive/folders/1yBmRhUDUKsChNuxGIEjiH4LsdLT0jBjW?usp=sharing)   
+App video functionality link: (https://drive.google.com/file/d/1T61ChJv5hAEPwd0DRS5CiCegvXaTIYLg/view?usp=sharing)   
 
 **Application Image Examples:** Hover the mouse over each image for a brief description.
 <p align="left">
