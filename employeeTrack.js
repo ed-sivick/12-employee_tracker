@@ -1,5 +1,6 @@
-const mysql = require('mysql');
-const inquirer = require('inquirer');
+// Dependencies
+const mysql = require("mysql");
+const inquirer = require("inquirer");
 
 // create the connection information for the sql database
 const connection = mysql.createConnection({
@@ -15,7 +16,7 @@ const connection = mysql.createConnection({
     database: "employee_db"
 });
 
-// connect to the mysql server and sql database
+// Initiate MySQL Connection
 connection.connect(function (err) {
     if (err) throw err;
     // run the start function after the connection is made to prompt the user    
