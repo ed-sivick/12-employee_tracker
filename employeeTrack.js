@@ -72,7 +72,7 @@ function addDepartment() {
         })
         // Add department to table row
         .then(function (answer) {
-            var query = "INSERT INTO department (name) VALUES ( ? )";
+            const query = "INSERT INTO department (name) VALUES ( ? )";
             connection.query(query, answer.department, function (err, res) {
                 console.log(`You have added a new department: ${(answer.department).toUpperCase()}.`)
             })
@@ -100,7 +100,7 @@ function addRole() {
                 type: "list",
                 message: "Which department does this new role belong?",
                 choices: function () {
-                    var choicesArray = [];
+                    const choicesArray = [];
                     res.forEach(res => {
                         choicesArray.push(
                             res.name
@@ -218,7 +218,7 @@ async function addEmployee() {
 }
 // function to view departments
 function viewDepartments() {
-    var query = "SELECT * FROM department";
+    const query = "SELECT * FROM department";
     connection.query(query, function (err, res) {
         console.log("\n")
         console.log(`Departments:`)
